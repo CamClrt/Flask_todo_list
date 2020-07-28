@@ -1,6 +1,8 @@
 # Create a todo list with Flask
 
-📝 This is an short project to learn how to use Flask from the docstring blog: https://www.docstring.fr/blog/creer-une-todo-app-avec-flask/.
+📝 This is a short project to learn how to use Flask.
+
+It comes from the 🇫🇷 docstring blog: https://www.docstring.fr/blog/creer-une-todo-app-avec-flask/.
     
 🎯 The aim to this project is to create a simple todo list.
 
