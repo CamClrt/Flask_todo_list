@@ -9,10 +9,11 @@
 
 > Clone the repository from Github
 
-`git clone git@github.com:CamClrt/Flask_todo_list.git` or `git clone https://github.com/CamClrt/Flask_todo_list`
+`git clone git@github.com:CamClrt/Flask_todo_list.git`
+or `git clone https://github.com/CamClrt/Flask_todo_list`
 
 
-> Execute with a virtual environment or install the package
+> Execute with a virtual environment
 
 **With a virtual environment**
 
