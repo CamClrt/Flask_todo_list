@@ -10,6 +10,8 @@
 > Clone the repository from Github
 
 `git clone git@github.com:CamClrt/Flask_todo_list.git`
+
+
 or `git clone https://github.com/CamClrt/Flask_todo_list`
 
 
