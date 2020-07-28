@@ -1,0 +1,24 @@
+<!-- todo_app/templates/index.html -->
+
+{% extends 'base.html' %}
+{% block main %}
+<main>
+    {% include './partials/_form.html' %}
+    <div id="tasks">
+        {% if tasks %}
+        {% for task in tasks %}
+        <div id="task">
+            <p>{{ task.name }}</p>
+            <div>
+                <!-- Lien pour mettre à jour une tâche -->
+                <a href="{{ url_for('update', id=task.id) }}">Update</a>
+                <a href="{{ url_for('delete', id=task.id) }}">Delete</a>   
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p style="font-size: 16px; text-align: center;">Super, vous n'avez plus rien à faire ✌️</p>
+        {% endif %}
+    </div>
+</main>
+{% endblock main %}
